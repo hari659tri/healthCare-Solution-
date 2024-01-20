@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Healthify</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="popform.css">
+  <link rel="stylesheet" href="mediaqueries.css" />
+  <link rel="stylesheet" href="faq.css">
+  <link rel="icon" type="image/x-icon" href="/assets/favicon.webp">
+  <link rel="stylesheet" href="stylee.css">
+
+</head>
+
+<body>
+
+  <div class="portfolio">
+    <div class="_1">HealthCare</div>
+    <div class="_2">Innovation</div>
+
+  </div>
+
+  <div class="header">
+    <div>
+      <button id="btn"><a href="/faq.html" style="text-decoration: none; color: white">Asked Question </a> </button>
+    </div>
+    <div class="navbar">
+      <div class="nav"><a href="/index.html">Home</a></div>
+      <ul class="navbarr">
+        <div class="li">
+          <a href="service.html">Services</a>
+          <div class="subcontent">
+            <a href="/mentalhealth.html">MentalHealth</a>
+            <a href="">HealthCare Specialist</a>
+            <a href="/appointment.html">Book Appointment</a>
+            <a href="/fedback.html">feedback</a>
+            <a href="/ehr.html">EHRs</a>
+          </div>
+        </div>
+      </ul>
+      <div class="nav"><a href="/abtus.html">AboutUs</a></div>
+      <div class="nav"><a href="/contactus.html">Contact Us</a></div>
+      <div class="nav"><a href="/Appointment.html">Appointment</a></div>
+    </div>
+    <button id="btn">
+      <a href="/register.html" style="text-decoration: none; color: white">Register</a>
+    </button>
+  </div>
+
+  <nav id="hamburger-nav">
+    <div class="logo">Healthify</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="Home"></a></li>
+        <li><a href="#service" onclick="toggleMenu()">Services</a></li>
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+  <!-- <hr style="margin:0 50px;"> -->
+  <section id="profile">
+    <div class="section__pic-container">
+      <img src="./assets/profile-pic.png" alt="Healthify profile picture" />
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="title">Healthify</h1>
+      <p class="section__text__p2"> your health friend</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('./assets/healthify.pdf')">
+          Download Broucher
+        </button>
+        <a href="/contactus.html"> <button class="btn btn-color-1">
+            Contact Info
+          </button></a>
+
+
+      </div>
+      <br>
+      <p>Healthify is dedicated to promoting well-being and ensuring access to quality healthcare for all. Our goal is
+        to create a healthier society by focusing on preventive measures, education, and providing comprehensive
+        healthcare services.</p>
+
+    </div>
+  </section>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+
+  <section id="service">
+    <p class="section__text__p1">Our </p>
+    <h1 class="title">Services</h1>
+    <div class="service-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <h2 class="service-sub-title project-title">Past History</h2>
+            <img src="./assets/record.png" alt=" record pad" class="project-img ">
+
+          </div>
+          <p>Track your past diesases,
+            Maintain your record and
+            Easily Accessible</p>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='record.html'">
+              Explore
+            </button>
+
+
+
+            <button class="btn btn-color-2 project-btn" onclick="location.href='record.html'">
+              View your recorrd
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <h2 class="service-sub-title project-title">Hospital availability</h2>
+            <img src="./assets/Hospital.png" alt="hospital" class="project-img" />
+
+          </div>
+          <p>Get to know the availability of beds in hospital of your city.</p>
+          <br>
+          <div class="btn-container">
+
+            <button class="btn btn-color-2 project-btn" onclick="location.href='beds.html'">
+              Explore
+            </button>
+
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <h2 class="service-sub-title project-title"> Ambulance</h2>
+            <img src="./assets/ambulance.png" alt="ambulance" class="project-img" />
+
+          </div>
+          <p>Track ambulance at live </p>
+          Get to know the availability of ambulance
+          Book it right know</p>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='ambulance.html'">
+              Explore
+            </button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='ambulance.html'">
+              Book
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <br>
+  <br>
+  <br>
+  <section id="projects">
+    <p class="section__text__p1">Our </p>
+    <h1 class="title">Mentors</h1>
+    <div class="service-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container white">
+          <div class="article-container">
+
+            <img src="./assets/doctor.png" alt=" record pad" class="project-img ">
+
+          </div>
+          <p>Dr. Ami Waro</p>
+          <p></p>
+          <div class="btn-container">
+
+          </div>
+        </div>
+        <div class="details-container color-container white">
+          <div class="article-container">
+            <br>
+
+            <img src="./assets/softwareeng.jpg" alt="software enggener" class="project-img" />
+
+          </div>
+          <p>Jhony Di Al Rondo</p>
+          <div class="btn-container">
+
+          </div>
+        </div>
+        <div class="details-container color-container white ">
+          <div class="article-container">
+            <img src="./assets/hc verma.png" alt="hc verma sir" class="project-img" />
+
+          </div>
+          <p>HC Verma </p>
+          <div class="btn-container">
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <section id="faq">
+    <h2 class="title">FAQs</h2>
+
+    <div class="faq">
+      <div class="question">
+        <h3>What is Healthify</h3>
+
+        <svg width="15" height="10" viewBox="0 0 42 25">
+          <path d="M3 3L21 21L39 3" stroke="white" stoke-width="7" stroke-linecape="round" />
+        </svg>
+      </div>
+
+      <div class="answer">
+        <p>
+          Healthify is a web application that allows users to track their health data, access various services through a
+          click away . Having some extra information towards your medical system can save a life and we provide that
+          extra information. It provides an easy for you.
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h3>What are the services?</h3>
+
+        <svg width="15" height="10" viewBox="0 0 42 25">
+          <path d="M3 3L21 21L39 3" stroke="white" stoke-width="7" stroke-linecape="round" />
+        </svg>
+      </div>
+
+      <div class="answer">
+        <p>
+          Our platform offers a wide range of healthcare services, including but not limited to: consultations
+        </p>
+
+        <p>
+          You can check availibility of an ambulance , book it and also track it on the go.
+        </p>
+
+        <p>
+          We help in keeping the record of the past consulting with doctor
+        </p>
+        <p>
+          you can check the availability of beds in a particular hospital through our service
+        </p>
+      </div>
+
+
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h3>How to access the services?</h3>
+
+        <svg width="15" height="10" viewBox="0 0 42 25">
+          <path d="M3 3L21 21L39 3" stroke="white" stoke-width="7" stroke-linecape="round" />
+        </svg>
+      </div>
+
+      <div class="answer">
+        <p>
+          Some services you can access directly without login in Healthify like availibility of beds but for others you
+          need to have an account with healthify
+        </p>
+      </div>
+
+
+    </div>
+
+
+    <div class="faq">
+      <div class="question">
+        <h3>How to contact us?</h3>
+
+        <svg width="15" height="10" viewBox="0 0 42 25">
+          <path d="M3 3L21 21L39 3" stroke="white" stoke-width="7" stroke-linecape="round" />
+        </svg>
+      </div>
+
+      <div class="answer">
+        <p>
+          You can email us or simple call us on the number given below or just by simply submitting an query form our
+          representative will get back to you.
+        </p>
+      </div>
+
+
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h3>What if doctor uploads a misleading report?</h3>
+
+        <svg width="15" height="10" viewBox="0 0 42 25">
+          <path d="M3 3L21 21L39 3" stroke="white" stoke-width="7" stroke-linecape="round" />
+        </svg>
+      </div>
+
+      <div class="answer">
+        <p>
+          If the uploaded document is found to be misleading or inaccurate, we will remove. And you a right to file a
+          case against such case. Before final submission your approval will be required.
+
+        </p>
+      </div>
+
+
+    </div>
+  </section>
+
+
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Us</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+        <p><a href="mailto:examplemail@gmail.com">info@healthcareinnovation</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="./assets/telephone.png" alt="telephone icon" class="icon contact-icon" />
+        <p><a href="tel:915467454674">+91 54674 54674</a></p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="footer-content">
+      <p>Contact us at <a href="mailto:info@healthinnovations.com">info@healthinnovations.com</a> | Follow us on social
+        media</p>
+      <p>Privacy Policy | Terms of Service</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+  <script src="faq.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Critical Challenge - Health Sections</title>
+    <link rel="stylesheet" href="stylee.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+            overflow-x: hidden;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        img {
+            max-width: 50%;
+            height: auto;
+            border-radius: 1em;
+            position: relative;
+            bottom: 1em;
+        }
+       .mh,.dg,.fh{
+            text-align: center;
+            position: relative;
+            bottom: 1em;
+            color: #fff;
+          
+       }
+       #mentalHealth{
+           background-image: url("Mh.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 500px;
+            width: 100%;
+            position: relative;
+            border-radius: 1em;
+       }
+       #digitalHealth{
+        background-image: url("DH.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 500px;
+        width: 100%;
+        position: relative;
+        border-radius: 1em;
+       }
+
+ 
+       .mental{
+           background-color: rgba(255, 255, 255, 0.5);
+           width: 50%;
+           height: 30%;
+           position: relative;
+           top: 3em;
+           left: 13em;
+           border: 2px solid green;
+           border-radius: 0.7em;
+           text-align: center;
+       }
+       .btn{
+        background: green;
+        box-sizing: border-box;
+        border: 1px solid rgb(176, 218, 176);
+        width: 16%;
+        text-align: center;
+        padding: 0.2em;
+        border-radius: 0.6em;
+        position: relative;
+        top: 4em;
+        left: 14em;
+        font-size: 25px;
+       }
+
+       .btn:hover{
+         color: rgb(0, 0, 0);
+       }
+       a,.btn{
+            text-decoration: none;
+            color: #fff;
+       }
+
+       .digihealth{
+        background-color: rgba(255, 255, 255, 0.5);
+        width: 50%;
+        height: 34%;
+        position: relative;
+        top: 3em;
+        left: 13em;
+        border: 2px solid green;
+        border-radius: 0.7em;
+        text-align: center;
+       }
+       .btn2{
+        background: green;
+        box-sizing: border-box;
+        border: 1px solid rgb(176, 218, 176);
+        width: 16%;
+        text-align: center;
+        padding: 0.2em;
+        border-radius: 0.6em;
+        position: relative;
+        top: 4em;
+        font-size: 25px;
+        display: inline;
+       } 
+       .btn2:hover{
+         color: rgb(0, 0, 0);
+       }
+      
+      
+    </style>
+</head>
+<body>
+    
+    <div class="portfolio">
+        <div class="_1">HealthCare</div>
+        <div class="_2">Innovation</div>
+      </div>
+      <div class="header">
+        <div >
+          <button id="btn"><a href="/faq.html" style="text-decoration: none; color: white">Asked Question </a> </button>
+        </div>
+        <div class="navbar">
+          <div class="nav"><a href="/index.html">Home</a></div>
+          <ul class="navbarr">
+            <li>
+                <a href="/services/service.html">Service</a>
+                <!-- Subcontent for Services -->
+                <div class="subcontent">
+                    <a href="/mentalhealth.html">MentalHealth</a>
+                    <a href="/doctorconnect.html">HealthCare Specialist</a>
+                    <a href="/appointment.html">Book Appointment</a>
+                    <a href="/fedback.html">feedback</a>
+                    <a href="/ehr.html">EHRs</a>
+                </div>
+            </li>
+        </ul>
+          <div class="nav"><a href="/abtus.html">AboutUs</a></div>
+          <div class="nav"><a href="/contactus.html">Contact Us</a></div>
+          <div class="nav"><a href="/appointment.html">Appointment</a></div>
+        </div>
+        <button id="btn">
+          <a href="/register.html" style="text-decoration: none; color: white">Register</a>
+        </button>
+      </div>
+    <section id="mentalHealth">
+        <h2 class="mh">Mental Health</h2>
+          <div class="mental">
+            <h2>A Guide to Mental Well-being</h2>
+            <p>Your mental health is your superpower. Embrace it, protect it, and let it be the source of your greatest strength  </p>
+          </div>
+           <a href="mentalhealth.html"><div class="btn">M-Health</div></a>
+    </section>
+
+    <section id="digitalHealth">
+        <h2 class="dg">Digital Health</h2>
+        <div class="digihealth">
+            <h2>Navigating Wellness in the Digital Age </h2>
+            <p>Welcome to our digital health platform, where technology meets healthcare to provide convenient and efficient solutions for your well-being.</p>
+            <a href="digitalhealth.html"><div class="btn2">Digital Health</div></a>
+        </div>
+    </section>
+</body>
+</html>

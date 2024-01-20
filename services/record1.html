@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Healthify</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="record1.css">
+  <link rel="stylesheet" href="faq.css">
+  <link rel="stylesheet" href="mediaqueries.css" />
+  <link rel="icon" type="image/x-icon" href="/assets/favicon.webp">
+  <link rel="stylesheet" href="stylee.css">
+</head>
+
+<body>
+
+  <div class="portfolio">
+    <div class="_1">HealthCare</div>
+    <div class="_2">Innovation</div>
+
+  </div>
+
+  <div class="header">
+    <div>
+      <button id="btn"><a href="/faq.html" style="text-decoration: none; color: white">Asked Question </a> </button>
+    </div>
+    <div class="navbar">
+      <div class="nav"><a href="/index.html">Home</a></div>
+      <ul class="navbarr">
+        <div class="li">
+          <a href="service.html">Services</a>
+          <div class="subcontent">
+            <a href="/mentalhealth.html">MentalHealth</a>
+            <a href="">HealthCare Specialist</a>
+            <a href="/appointment.html">Book Appointment</a>
+            <a href="/fedback.html">feedback</a>
+            <a href="/ehr.html">EHRs</a>
+          </div>
+        </div>
+      </ul>
+      <div class="nav"><a href="/abtus.html">AboutUs</a></div>
+      <div class="nav"><a href="/contactus.html">Contact Us</a></div>
+      <div class="nav"><a href="/Appointment.html">Appointment</a></div>
+    </div>
+    <button id="btn">
+      <a href="/register.html" style="text-decoration: none; color: white">Register</a>
+    </button>
+  </div>
+  <nav id="hamburger-nav">
+    <div class="logo">Healthify</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="Home" onclick="toggleMenu()">Home</a></li>
+        <li><a href="#service" onclick="toggleMenu()">Services</a></li>
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+ 
+  <section id="profile">
+    <div class="section__pic-container">
+      <img src="./assets/profile-pic.png" alt="Healthify profile picture" />
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="title">Healthify</h1>
+      <p class="section__text__p2"> your health friend</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('./assets/healthify.pdf')">
+          Download Broucher
+        </button>
+        <button class="btn btn-color-1" onclick="location.href='./#contact'">
+          Contact Info
+        </button>
+      </div>
+      <br>
+      <br>
+      <p>Healthify is dedicated to promoting well-being and ensuring access to quality healthcare for all. Our goal is
+        to create a healthier society by focusing on preventive measures, education, and providing comprehensive
+        healthcare services.</p>
+
+    </div>
+  </section>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+
+
+
+  <div class="title">
+    <h3>Your Past Record</h3>
+  </div>
+
+
+  <section id="content">
+
+
+    <div class="content">
+
+
+      <div class="pdf">
+        <iframe src="raman.pdf" style="width:100%;height:100%;"></iframe>
+      </div>
+
+      <div class="pdf">
+        <object data="income veri.pdf" type="application/pdf" width="100%" height="100%">
+          <a href="income veri.pdf"></a>
+        </object>
+      </div>
+
+      <div class="pdf">
+        <object data="income veri.pdf" type="application/pdf" width="100%" height="100%">
+          alt : <a href="income veri.pdf">test.pdf</a>
+        </object>
+      </div>
+
+
+
+    </div>
+  </section>
+
+
+
+  <section id="faq">
+    <h2 class="title">FAQs</h2>
+
+
+
+    <div class="faq">
+      <div class="question">
+        <h3>What is Healthify</h3>
+
+        <svg width="15" height="10" viewBox="0 0 42 25">
+          <path d="M3 3L21 21L39 3" stroke="white" stoke-width="7" stroke-linecape="round" />
+        </svg>
+      </div>
+
+      <div class="answer">
+        <p>
+          Healthify is a web application that allows users to track their health data, access various services through a
+          click away . Having some extra information towards your medical system can save a life and we provide that
+          extra information. It provides an easy for you.
+        </p>
+      </div>
+
+
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h3>What does record contain?</h3>
+
+        <svg width="15" height="10" viewBox="0 0 42 25">
+          <path d="M3 3L21 21L39 3" stroke="white" stoke-width="7" stroke-linecape="round" />
+        </svg>
+      </div>
+
+      <div class="answer">
+        <p>
+          Healthify record contains all your previous medical history. It contains all the original preception given by
+          doctor and also all the test report of yours . Simply containg all the required document when a treatement
+          starts or end.
+        </p>
+      </div>
+
+
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h3>How to upload the record?</h3>
+
+        <svg width="15" height="10" viewBox="0 0 42 25">
+          <path d="M3 3L21 21L39 3" stroke="white" stoke-width="7" stroke-linecape="round" />
+        </svg>
+      </div>
+
+      <div class="answer">
+        <p>
+          You don't need to upload any document. You have to just make an Healthify accout which will allocate you an
+          unique number or say ID . By at the time of consultation you have to just provide it to hospital rest will be
+          take care by hospital.
+        </p>
+      </div>
+
+
+    </div>
+
+
+    <div class="faq">
+      <div class="question">
+        <h3>Can everyone see my record?</h3>
+
+        <svg width="15" height="10" viewBox="0 0 42 25">
+          <path d="M3 3L21 21L39 3" stroke="white" stoke-width="7" stroke-linecape="round" />
+        </svg>
+      </div>
+
+      <div class="answer">
+        <p>
+          No, only you can see your own records. To protect your privacy and confidentiality only person with unique ID
+          and password can see but can have a glance at very basic info of you .
+        </p>
+      </div>
+
+
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h3>What if doctor uploads a misleading report?</h3>
+
+        <svg width="15" height="10" viewBox="0 0 42 25">
+          <path d="M3 3L21 21L39 3" stroke="white" stoke-width="7" stroke-linecape="round" />
+        </svg>
+      </div>
+
+      <div class="answer">
+        <p>
+          If the uploaded document is found to be misleading or inaccurate, we will remove. And you a right to file a
+          case against such case. Before final submission your approval will be required.
+
+        </p>
+      </div>
+
+
+    </div>
+
+
+
+
+    <div class="faq">
+      <div class="question">
+        <h3>Can I download it ?</h3>
+
+        <svg width="15" height="10" viewBox="0 0 42 25">
+          <path d="M3 3L21 21L39 3" stroke="white" stoke-width="7" stroke-linecape="round" />
+        </svg>
+      </div>
+
+      <div class="answer">
+        <p>
+          Yes, You can print or save the document for your record. But it will be not valid at medical store instead of
+          that you can simply show the pdf to the required person.
+
+
+        </p>
+      </div>
+
+
+
+
+    </div>
+
+
+  </section>
+
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Us</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+        <p><a href="mailto:examplemail@gmail.com">support@healthify.com</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="./assets/telephone.png" alt="telephone icon" class="icon contact-icon" />
+        <p><a href="">+91 54674 54674</a></p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; 2023 Healthify. All Rights Reserved.</p>
+  </footer>
+  <script src="faq.js"></script>
+</body>
+
+</html>
